@@ -4,6 +4,11 @@ import Twitter from '../../assets/Images/twitter.webp'
 import Linkdin from '../../assets/Images/linkedin.png'
 import Git from '../../assets/Images/Git1.png'
 import Profile from '../../assets/Images/Human.jpeg'
+import CV from '../../assets/Images/My New Cv (1).pdf'
+
+
+
+
 function Home() {
     return (
         <div className=' w-full gap-2 flex flex-col '>
@@ -17,7 +22,7 @@ function Home() {
                     <h1 className='text-[6em]  capitalize font-bold from-purple-600 via-pink-600 to-blue-600 bg-gradient-to-r bg-clip-text text-transparent ' id='text-subtitle'>UI/UX designer</h1>
                     <p className=' text-lg  capitalize  text-white my-4 opacity-50 ' id='text-p'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero magnam numquam quas, quae optio facere tempora beatae nam ex error illum asperiores, pariatur enim culpa perspiciatis dignissimos ducimus. Enim numquam ad deleniti facere! Reprehenderit quae doloremque placeat illo magnam autem!</p>
                     <div className='  py-10 flex justify-around w-[50%] ' id='text-bg'>
-                        <h1 className='px-8 py-3 text-white rounded-[50px] bg-[#540185]  hover:bg-[#9b3ad3]' id='text'>Download CV</h1>
+                        <a href={CV}  download className='px-8 py-3 text-white rounded-[50px] bg-[#540185]  hover:bg-[#9b3ad3] hover:scale-105' id='text'>Download CV</a>
                         <div className='w-12 h-12  rounded-[50px] border-[2px] border-[#540185] hover:bg-[#b243f3fe]'><img src={Twitter} alt="" /></div>
                         <div className='w-12 h-12  rounded-[50px] border-[2px] border-[#540185] hover:bg-[#b243f3fe] flex justify-center items-center'><img src={Linkdin} alt="" className='h-6 w-6' /></div>
                         <div className='w-12 h-12  rounded-[50px] border-[2px] border-[#540185] hover:bg-[#c373f2] flex justify-center items-center'><img src={Git} alt="" className='h-8 w-8' /></div>

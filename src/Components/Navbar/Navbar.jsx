@@ -19,7 +19,7 @@ function Navbar() {
                 <h1 className='px-6 py-2 duration-[0.8s] rounded-full hover:bg-[#7c19e7]'>Resume</h1>
                 <h1 className='px-6 py-2 duration-[0.8s] rounded-full hover:bg-[#7c19e7]'>Skills</h1>
                 <h1 className='px-6 py-2 duration-[0.8s] rounded-full hover:bg-[#7c19e7]'>Contact</h1>
-                <h1 className='px-6 py-2 text-white bg-gradient-to-r from-[#9106FF] to-[#390066] rounded-3xl '>Hire Me!</h1>
+                <h1 className='px-6 py-2 text-white bg-gradient-to-r from-[#c697ed] to-[#390066] rounded-3xl hover:bg-[#991df8] ' id='hireme'>Hire Me!</h1>
 
             </div>
 
