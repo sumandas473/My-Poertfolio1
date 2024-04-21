@@ -1,0 +1,94 @@
+#hi {
+    color: transparent;
+    
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+#text {
+    font-family: "Open Sans", sans-serif;
+}
+
+
+
+@media only screen and (min-width: 1629px) {
+    #text-subtitle {
+        font-size: 5em;
+
+    }
+
+    #text-title {
+        font-size: 3em;
+
+    }
+}
+
+@media only screen and (min-width: 1623px) {
+    #text-subtitle {
+        font-size: 4.5em;
+
+    }
+
+    #text-title {
+        font-size: 3em;
+
+    }
+
+    #text-p {
+        font-size: 1em;
+
+    }
+}
+
+@media only screen and (min-width: 1622px) {
+    #text-subtitle {
+        font-size: 4em;
+
+    }
+
+    #text-title {
+        font-size: 2.7em;
+
+    }
+
+    #text-p {
+        font-size: 1em;
+
+    }
+}
+
+@media only screen and (min-width:1440px) {
+    #main-container{
+        padding-right: 90px;
+    }
+    #text-subtitle {
+        font-size: 4em;
+
+    }
+
+    #text-title {
+        font-size: 2.7em;
+
+    }
+
+    #text-p {
+        font-size: 1em;
+
+    }
+    #hi{
+        font-size: 15em;
+        -webkit-text-stroke: 2px #33025e;
+        
+    }
+    #bg-photo{
+        margin-top: -50px;
+        
+    }
+    #text-bg{
+        /* background-color: #fff; */
+        width: 60%;
+    }
+}
+
