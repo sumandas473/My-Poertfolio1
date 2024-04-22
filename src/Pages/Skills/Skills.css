@@ -1,0 +1,8 @@
+@media only screen and (max-width:1440px){
+    #skill-container{
+        height: 220px;
+    }
+    #react-native{
+        height: 90px;
+    }
+}

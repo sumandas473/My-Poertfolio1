@@ -15,13 +15,13 @@ function Navbar() {
                 <h1 className='text-white text-sm' id='email'>sumandassumandas473@gmail.com</h1>
 
             </div>
-            <div className='h-full w-3/5 px-10 flex  items-center justify-end gap-10 text-white' id='nav-element'>
-                <h1 className='px-6 py-2 duration-[0.8s] rounded-full hover:bg-[#7d19e7]'>Service</h1>
-                <h1 className='px-6 py-2 duration-[0.8s] rounded-full hover:bg-[#7c19e7]'>Work</h1>
-                <h1 className='px-6 py-2 duration-[0.8s] rounded-full hover:bg-[#7c19e7]'>Resume</h1>
-                <h1 className='px-6 py-2 duration-[0.8s] rounded-full hover:bg-[#7c19e7]'>Skills</h1>
-                <h1 className='px-6 py-2 duration-[0.8s] rounded-full hover:bg-[#7c19e7]'>Contact</h1>
-                <h1 className='px-6 py-2 text-white bg-gradient-to-r from-[#c697ed] to-[#390066] rounded-3xl hover:bg-[#991df8] ' id='hireme'>Hire Me!</h1>
+            <div className='h-full w-3/5 px-10 flex  items-center justify-end gap-10 text-white' id='nav-element '>
+                <h1 className='px-6 py-2 duration-[0.8s] rounded-full hover:bg-[#7d19e7] cursor-pointer'>Service</h1>
+                <h1 className='px-6 py-2 duration-[0.8s] rounded-full hover:bg-[#7c19e7] cursor-pointer'>Skills</h1>
+                <h1 className='px-6 py-2 duration-[0.8s] rounded-full hover:bg-[#7c19e7] cursor-pointer'>Works</h1>
+                <h1 className='px-6 py-2 duration-[0.8s] rounded-full hover:bg-[#7c19e7] cursor-pointer'>Resume</h1>
+                <h1 className='px-6 py-2 duration-[0.8s] rounded-full hover:bg-[#7c19e7] cursor-pointer'>Contact</h1>
+                <h1 className='px-6 py-2 text-white bg-gradient-to-r from-[#c697ed] to-[#390066] rounded-3xl hover:bg-[#991df8] cursor-pointer' id='hireme'>Hire Me!</h1>
 
             </div>
 
