@@ -5,7 +5,7 @@ import Service from './Pages/Service/Service'
 
 function App() {
   return (
-    <div className='bg-gradient-to-r from-[#10041c] to-[#1d0331]  w-full'>
+    <div className='bg-gradient-to-r from-[#10041c] via-[#2f0f50] to-[#25053d]  w-full'>
       <Navbar />
       <Home />
       <Service />

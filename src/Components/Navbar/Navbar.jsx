@@ -1,5 +1,7 @@
 import React from 'react'
 import './Navbar.css'
+import { motion } from 'framer-motion'
+
 
 function Navbar() {
     return (
@@ -7,7 +9,7 @@ function Navbar() {
             <div className='h-full w-2/5 flex items-center px-10 gap-4'>
                 
                 <div className='h-14 w-14 bg-[#8a4bf7] rounded-[50px] flex justify-center items-center  pb-4' id='start-bg'>
-                    <div id='four-pointed-star' className=''></div>
+                    <motion.div animate={{ rotate: 360 }} transition={{ ease: "linear", duration: 2, repeat: Infinity }} id='four--star' className='mt-4 h-8 w-8 bg-white rounded-tl-2xl rounded-br-2xl'></motion.div>
                     
                 </div>
                 <h1 className='text-white text-sm' id='email'>sumandassumandas473@gmail.com</h1>
