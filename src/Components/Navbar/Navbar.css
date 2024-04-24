@@ -30,4 +30,24 @@
     
     }
   }
+
+  @media only screen and (max-width: 412px){
+    #start-bg{
+      height: 40px;
+      width: 40px;
+    }
+    #four--star{
+      height: 25px;
+      width: 25px;
+    }
+    #email{
+      display: none;
+    }
+    #elements{
+      display: none;
+    }
+    #hireme{
+      transform: translateX(-180px);
+    }
+  }
   

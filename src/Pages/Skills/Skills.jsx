@@ -11,7 +11,7 @@ import "./Skills.css";
 
 function Skills() {
   return (
-    <div className="w-full py-20">
+    <div className="w-full py-20" id='main-container1'>
       <motion.div
         initial={{ opacity: 0, y: 75 }}
         whileInView={{ opacity: 1, y: 0 }}

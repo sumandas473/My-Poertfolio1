@@ -15,7 +15,8 @@ function Home() {
     const github = 'https://github.com/sumandas473'
     
     return (
-        <div data-scroll data-scroll-speed="0.5"  className=' w-full gap-2 flex flex-col '>
+        
+        <div data-scroll data-scroll-speed="0.5"  className=' w-full gap-2 flex flex-col ' id='main-container1'>
             <div className='h-screen w-full  flex justify-end items-center px-60' id='main-container'>
                 <h1 className='text-[25em] text-white  font-bold  pb-28' id='hi'>HI</h1>
                 <motion.div initial={{rotate:0}} whileInView={{rotate:10}} animate={{  }} transition={{duration:1}} className=' h-[25vw] w-[22vw] border-2  rotate-6 rounded-[40px] overflow-hidden' id='bg-photo'><img src={Profile} alt="" className='h-full w-full object-cover scale-125' /></motion.div>
@@ -77,7 +78,12 @@ function Home() {
             </div>
 
         </div>
+    
     )
 }
+
+
+
+
 
 export default Home

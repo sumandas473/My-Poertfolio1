@@ -19,6 +19,7 @@
 
 
 
+
     /* @media only screen and (min-width: 1623px) {
         #text-subtitle {
             font-size: 4.5em;
@@ -52,6 +53,30 @@
 
         }
     } */
+    @media only screen and (max-width:1735px){
+        #text-subtitle {
+            font-size: 5.8em;
+            margin-bottom: 15px;
+
+        }
+
+    }
+    @media only screen and (max-width:1682px){
+        #text-subtitle {
+            font-size: 5em;
+            margin-bottom: 15px;
+
+        }
+
+    }
+    @media only screen and (max-width:1472px){
+        #text-subtitle {
+            font-size: 4.5em;
+            margin-bottom: 15px;
+
+        }
+
+    }
 
     @media only screen and (max-width:1440px) {
         #main-container{
@@ -92,3 +117,16 @@
         }
     }
 
+  
+
+
+    @media only screen and (max-width:412px){
+        #main-container1{
+            display: none;
+
+           
+        }
+        
+       
+    }
+  

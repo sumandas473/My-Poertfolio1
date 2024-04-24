@@ -2,10 +2,11 @@ import React from 'react'
 import call from '../../assets/Images/call.png'
 import Email from '../../assets/Images/Email.png'
 import location from '../../assets/Images/location.png'
+import './Contact.css'
 
 function Contact() {
   return (
-    <div className='w-full h-screen flex items-center justify-around  '>
+    <div className='w-full h-screen flex items-center justify-around  ' id='main-container1'>
         <div className="w-[45%] h-full bg-[#27073ca7] text-center items-center pt-40 flex flex-col">
             <h1 className="text-[3rem] font-bold capitalize from-[#823e9f] to-[#fff] bg-gradient-to-r bg-clip-text text-transparent ">lets work together!</h1>
             <h2 className=" capitalize text-sm mt-2 text-white opacity-45">i design and code beautifully simple things and i love what i do. just simple like that.</h2>

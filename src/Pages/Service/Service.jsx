@@ -5,7 +5,7 @@ import { motion } from "framer-motion"
 
 function Service() {
   return (
-    <div className='w-full py-20 flex flex-col items-center'>
+    <div className='w-full py-20 flex flex-col items-center' id='main-container1'>
         <motion.div initial={{opacity:0, y:75}} whileInView={{opacity:1, y:0}} transition={{duration:1}}  className="w-full h-40 text-center mb-10 ">
             <h1  className="text-[3rem] font-bold capitalize from-[#6515ab] to-[#fff] bg-gradient-to-r bg-clip-text text-transparent " id='heading'>my quality services</h1>
             <h2 className=" capitalize mx-[35vw] text-white opacity-45" id='sub-heading'>i put your ideas and thus your wishes in the form of a unique project that inspires you and your customers</h2>
