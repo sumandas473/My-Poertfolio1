@@ -1,6 +1,7 @@
 import React from 'react'
 import './Navbar.css'
 import { motion } from 'framer-motion'
+import { Navigate } from 'react-router-dom'
 
 
 function Navbar() {
@@ -16,12 +17,12 @@ function Navbar() {
 
             </div>
             <div className='h-full w-3/5 px-10 flex  items-center justify-end gap-10 text-white' id='nav-element '>
-                <h1 className='px-6 py-2 duration-[0.8s] rounded-full hover:bg-[#7d19e7] cursor-pointer' id='elements'>Service</h1>
-                <h1 className='px-6 py-2 duration-[0.8s] rounded-full hover:bg-[#7c19e7] cursor-pointer' id='elements'>Skills</h1>
-                <h1 className='px-6 py-2 duration-[0.8s] rounded-full hover:bg-[#7c19e7] cursor-pointer' id='elements'>Works</h1>
-                <h1 className='px-6 py-2 duration-[0.8s] rounded-full hover:bg-[#7c19e7] cursor-pointer' id='elements'>Resume</h1>
-                <h1 className='px-6 py-2 duration-[0.8s] rounded-full hover:bg-[#7c19e7] cursor-pointer' id='elements'>Contact</h1>
-                <h1 className='px-6 py-2 text-white bg-gradient-to-r from-[#c697ed] to-[#390066] rounded-3xl hover:bg-[#991df8] cursor-pointer' id='hireme'>Hire Me!</h1>
+                <h1  className='px-6 py-2 duration-[0.8s] rounded-full hover:bg-[#7d19e7] cursor-pointer' id='elements' onClick={()=>alert('website on the way')}>Service</h1>
+                <h1 className='px-6 py-2 duration-[0.8s] rounded-full hover:bg-[#7c19e7] cursor-pointer' id='elements'  onClick={()=>alert('website on the way')} >Skills</h1>
+                <h1 className='px-6 py-2 duration-[0.8s] rounded-full hover:bg-[#7c19e7] cursor-pointer' id='elements'  onClick={()=>alert('website on the way')}>Works</h1>
+                <h1 className='px-6 py-2 duration-[0.8s] rounded-full hover:bg-[#7c19e7] cursor-pointer' id='elements'  onClick={()=>alert('website on the way')}>Resume</h1>
+                <h1 className='px-6 py-2 duration-[0.8s] rounded-full hover:bg-[#7c19e7] cursor-pointer' id='elements'  onClick={()=>alert('website on the way')}>Contact</h1>
+                <h1 className='px-6 py-2 text-white bg-gradient-to-r from-[#c697ed] to-[#390066] rounded-3xl hover:bg-[#991df8] cursor-pointer' id='hireme'  onClick={()=>alert('website on the way')}>Hire Me!</h1>
 
             </div>
 
